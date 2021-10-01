@@ -2,7 +2,7 @@
 
 A step by step guide to count stomata using Linux
 
-**Disclaimer** : Every file is given separately to cross check the results,  before proceeding to the next step. The below codes are tested on Ubuntu 18.04.5 LTS using bash, Python2.7 or ImageMagick.
+**Disclaimer** : Every file is given separately to cross check the results, before proceeding to the next step. The below codes are tested on Ubuntu 18.04.5 LTS using bash, Python2.7 or ImageMagick.
 
 A. **_Installation_**
 
@@ -12,9 +12,9 @@ Install **ImageMagick** as instructed by https://anaconda.org/conda-forge/imagem
 
 Install **python** using conda and then use pip, to install module/packages required - _sys, os, glob_.
 
-It doesnt matter abou the usage of file format either *png or jpg* format are recommended. Since the image captured by microscope must be edited/measured using Microsoft paint 2D. If you saved the file in another format such like TIF, then you can change to above mentioned preferred format.
+Either *png or jpg* format are recommended. Since the image captured by microscope must be edited/measured using Microsoft paint 2D. If you saved the file in another format such like TIF, then you can change to above mentioned preferred format.
 
-B. **_Drawing a sticker over the leaf_**
+B. **_Drawing a sticker/dots over the leaf_**
 
 Example file name
 
@@ -45,18 +45,9 @@ C. **_Create bash files for every images_**
     location = Saved location = /home/username/Documents
 
 This will give output like below. If you want to redirect all the output to a text file then use "python2.7 create_bash_files.py >created_text.txt".
-
-scripts/result1.sh
-scripts/result2.sh
-scripts/result3.sh
-scripts/result4.sh
-scripts/result5.sh
-scripts/result6.sh
-scripts/result7.sh
-scripts/result8.sh
-scripts/result9.sh
+Result file should be in the file -> /home/username/Documents/created_text.txt
 
 D. **_Counting the cells_**
 
 Run the command "python2.7 count_stomata.sh >final_count.txt".
-Result file should be in the file -> final_count.txt
+Result file should be in the file -> /home/username/Documents/final_count.txt
