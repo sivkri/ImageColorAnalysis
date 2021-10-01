@@ -1,4 +1,4 @@
-# Count-Stomata
+# Count-Stomata and pavement cells
 
 A step by step guide to count stomata using Linux
 
