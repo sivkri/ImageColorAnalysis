@@ -57,3 +57,6 @@ scripts/result8.sh
 scripts/result9.sh
 
 D. **_Counting the cells_**
+
+Run the command "python2.7 count_stomata.sh >final_count.txt".
+Result file should be in the file -> final_count.txt
