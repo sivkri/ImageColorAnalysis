@@ -18,7 +18,7 @@ B. **_Drawing a sticker/dots over the leaf_**
 
 location = /home/username/Documents
 
-Steps to color the image
+Steps to add dots/stickers to the image
 
 1. Open the file in the PAINT 3D and start painting as mentioned below.
 
