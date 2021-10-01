@@ -42,7 +42,7 @@ C. **_Create bash files for every images_**
     
    location = Saved location = /home/username/Documents
 
-This will give output like below. If you want to redirect all the output to a text file then use "python2.7 create_bash_files.py >created_text.txt".
+If you want to redirect all the output to a text file then use "python2.7 create_bash_files.py >created_text.txt".
 
 Result file should be in the file -> /home/username/Documents/created_text.txt
 
