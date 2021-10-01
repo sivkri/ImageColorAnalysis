@@ -1,6 +1,6 @@
 # Count-Stomata
 
-A step by step guide to count stomata using Linux for biologists
+A step by step guide to count stomata using Linux
 
 **Disclaimer** : Every file is given separately to cross check the results,  before proceeding to the next step. The below codes are tested on Ubuntu 18.04.5 LTS using bash, Python2.7 or ImageMagick.
 
