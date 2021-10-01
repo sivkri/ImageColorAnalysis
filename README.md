@@ -16,8 +16,6 @@ Either *png or jpg* format are recommended. Since the image captured by microsco
 
 B. **_Drawing a sticker/dots over the leaf_**
 
-Example files are attached in the rar format
-
 location = /home/username/Documents
 
 Steps to color the image
@@ -25,6 +23,8 @@ Steps to color the image
 1. Open the file in the PAINT 3D and start painting as mentioned below.
 
 2. Select option -> 2D Shapes -> round shape -> Both line type and fill should be red for _stomata_ -> similarly do for the _pavement cells_ using yellow color -> save image in a new folder. 
+
+Example files are attached in the rar format
 
 Save image file with the ending "dots.png" or "dots.jpg" (**file Extension** and **name ending** is much more important), since the next python file will look for this and start creating bash files. Warning: You should not work with original file received taken from microscope.
 
