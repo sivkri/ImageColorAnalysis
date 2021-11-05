@@ -51,3 +51,9 @@ D. **_Counting the cells_**
 Run the command "python2.7 count_stomata.sh >final_count.txt".
 
 Result file should be in the file -> /home/username/Documents/final_count.txt
+
+some of the useful links
+
+https://stackoverflow.com/questions/44439555/count-colored-dots-in-image#comment75876873_44439555
+
+https://stackoverflow.com/questions/25907351/how-to-read-specific-dots-on-an-image-then-export-values-to-html-automatically
